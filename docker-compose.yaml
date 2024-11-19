@@ -15,7 +15,7 @@ services:
       - APP_ENCRYPT_KEY=v4UOSG4KPrSTnpJZtEHEcfarq6yFXtFd
       - APP_VERIFICATION_TOKEN=4pEwg80ifNJa3A2Ka9Ph5gyHpFGnyToN
       # 请确保和飞书应用管理平台中的设置一致
-      - BOT_NAME=chatGpt
+      - BOT_NAME=ChatGPT
       # OpenAI API Key 支持负载均衡, 可以填写多个 Key 用逗号分隔
       - OPENAI_KEY=sk-xxx,sk-xxx,sk-xxx
       # 服务器配置
