@@ -17,7 +17,7 @@ services:
       # 请确保和飞书应用管理平台中的设置一致
       - BOT_NAME=ChatGPT
       # OpenAI API Key 支持负载均衡, 可以填写多个 Key 用逗号分隔
-      - OPENAI_KEY=sk-xxx,sk-xxx,sk-xxx
+      - OPENAI_KEY=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,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
       # 服务器配置
       - HTTP_PORT=9000
       - HTTPS_PORT=9001
